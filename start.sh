@@ -2,7 +2,7 @@
 
 # ==================== 生成 config.ini ====================
 cat > config.ini << 'EOF'
-BOT_TOKEN = '$8183311333:AAENVS07ewTFUNeD6AjJzQJZJDMIMWIoswc'
+BOT_TOKEN = '${BOT_TOKEN}'
 MUSIC_U = '${MUSIC_U}'
 
 # 可选配置（未设置时使用默认值）
